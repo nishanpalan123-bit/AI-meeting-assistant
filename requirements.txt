@@ -1,41 +1,12 @@
-# --- Core app / UI ---
-streamlit==1.38.0
-
-# --- Audio acquisition ---
-yt-dlp==2024.8.6
-pytube==15.0.0
-ffmpeg-python==0.2.0
-
-# --- Speech-to-text (local Whisper) ---
-#openai-whisper==20231117
-# faster-whisper==1.0.3   # uncomment if you switch to the faster CTranslate2 backend
-torch==2.3.1
-torchaudio==2.3.1
-
-# --- Translation (Hindi -> English) ---
-deep-translator==1.11.4
-# deep-translator==1.11.4   # alternative if googletrans gives issues
-
-# --- LangChain / LCEL + Mistral ---
-langchain==0.2.16
-langchain-core==0.2.38
-langchain-community==0.2.16
-langchain-mistralai==0.1.13
-mistralai==1.0.3
-
-# --- RAG: vector store + embeddings ---
-chromadb==0.5.5
-sentence-transformers==3.0.1
-huggingface-hub==0.24.6
-
-# --- Structured output / data validation ---
-pydantic==2.8.2
-
-# --- PDF / TXT export ---
-fpdf2==2.7.9
-reportlab==4.2.2
-
-# --- Utilities ---
-python-dotenv==1.0.1
-tqdm==4.66.5
-numpy==1.26.4
+streamlit
+python-dotenv
+langchain-mistralai
+langchain-core
+langchain-chroma
+langchain-community
+langchain-text-splitters
+openai-whisper
+yt-dlp
+pydub
+requests
+sentence-transformers
